@@ -11,7 +11,7 @@
             "label": "build",
             "command": "dotnet",
             "type": "shell",
-            "dependsOn": "build TypeScript",
+            //"dependsOn": "build TypeScript",
             "args": [
                 "build",
                  // Ask dotnet build to generate full paths for file names.
